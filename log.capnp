@@ -642,6 +642,10 @@ struct ControlsState @0x97ff69c53601abf1 {
     gains @4 :List(Float32);
     output @5 :Float32;
     saturated @6 :Bool;
+    centers @7 :List(List(Float32));
+    weights @8 :List(Float32);
+    biases @9 :List(Float32);
+    variances @10 :List(Float32);
    }
 
   struct LateralLQRState {
