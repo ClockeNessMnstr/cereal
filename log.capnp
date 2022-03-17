@@ -646,6 +646,9 @@ struct ControlsState @0x97ff69c53601abf1 {
     weights @8 :List(Float32);
     biases @9 :List(Float32);
     variances @10 :List(Float32);
+    steeringRateDegS @11 :Float32;
+    steeringRateDegSDes @12 :Float32;
+    rateError @13 :Float32;
    }
 
   struct LateralLQRState {
