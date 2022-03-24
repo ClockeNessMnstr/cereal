@@ -582,6 +582,7 @@ struct ControlsState @0x97ff69c53601abf1 {
     lqrState @55 :LateralLQRState;
     angleState @58 :LateralAngleState;
     debugState @59 :LateralDebugState;
+    discreteState @60 :LateralDiscreteState;
   }
 
   enum OpenpilotState @0xdbe58b96d2d1ac61 {
@@ -631,6 +632,16 @@ struct ControlsState @0x97ff69c53601abf1 {
     output @7 :Float32;
     saturated @8 :Bool;
     steeringAngleDesiredDeg @9 :Float32;
+   }
+
+  struct LateralDiscreteState {
+    active @0 :Bool;
+    steeringAngleDeg @1 :Float32;
+    steeringAngleDesiredDeg @2 :Float32;
+    angleError @3 :Float32;
+    gains @4 :List(Float32);
+    output @5 :Float32;
+    saturated @6 :Bool;
    }
 
   struct LateralLQRState {
