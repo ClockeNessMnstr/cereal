@@ -1632,16 +1632,16 @@ struct LiveParametersData {
   gyroBias @1 :Float32;
   angleOffsetDeg @2 :Float32;
   angleOffsetAverageDeg @3 :Float32;
-  stiffnessFactor @4 :Float32;
-  steerRatio @5 :Float32;
+  stiffnessFront @4 :Float32;
+  stiffnessRear @5 :Float32;
   sensorValid @6 :Bool;
   yawRate @7 :Float32;
   posenetSpeed @8 :Float32;
   posenetValid @9 :Bool;
   angleOffsetFastStd @10 :Float32;
   angleOffsetAverageStd @11 :Float32;
-  stiffnessFactorStd @12 :Float32;
-  steerRatioStd @13 :Float32;
+  stiffnessFrontStd @12 :Float32;
+  stiffnessRearStd @13 :Float32;
   roll @14 :Float32;
 }
 
