@@ -1352,6 +1352,12 @@ struct LiveParametersData {
   frontRatioStd @19 :Float32;
   massStd @20 :Float32;
   momentStd @21 :Float32;
+  cF @22 :Float32;
+  cR @23 :Float32;
+  aF @24 :Float32;
+  aR @25 :Float32;
+  m @26 :Float32;
+  j @27 :Float32;
 }
 
 struct LiveMapDataDEPRECATED {
