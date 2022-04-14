@@ -1358,6 +1358,7 @@ struct LiveParametersData {
   aR @25 :Float32;
   m @26 :Float32;
   j @27 :Float32;
+  v @28 :Float32;
 }
 
 struct LiveMapDataDEPRECATED {
