@@ -654,6 +654,8 @@ struct ControlsState @0x97ff69c53601abf1 {
     saturated @7 :Bool;
     actualLateralAccel @9 :Float32;
     desiredLateralAccel @10 :Float32;
+    steeringAngleDeg @11 :Float32;
+    steeringAngleDesiredDeg @12 :Float32;
    }
 
   struct LateralLQRState {
