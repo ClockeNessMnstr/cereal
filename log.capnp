@@ -1698,6 +1698,7 @@ struct LiveParametersData {
   stiffnessRear @16 :Float32;
   stiffnessFrontStd @17 :Float32;
   stiffnessRearStd @18 :Float32;
+  stdDump @ 19 :List(Float32);
 }
 
 struct LiveMapDataDEPRECATED {
