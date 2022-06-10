@@ -477,6 +477,10 @@ struct CarParams {
 
   wheelSpeedFactor @63 :Float32; # Multiplier on wheels speeds to computer actual speeds
 
+  kActuator @69 :Float32;
+  kRest @70 :Float32;
+  kDamp @71 :Float32;
+
   struct SafetyConfig {
     safetyModel @0 :SafetyModel;
     safetyParam @3 :UInt16;
