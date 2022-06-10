@@ -1698,7 +1698,21 @@ struct LiveParametersData {
   stiffnessRear @16 :Float32;
   stiffnessFrontStd @17 :Float32;
   stiffnessRearStd @18 :Float32;
-  stdDump @ 19 :List(Float32);
+  stdDump @19 :List(Float32);
+  latVel @20 :Float32;
+  tireAngle @21 :Float32;
+  tireAngleRate @22 :Float32;
+  actuator @23 :Float32;
+  kActuator @24 :Float32;
+  kRest @25 :Float32;
+  kDamp @26 :Float32;
+  cF @27 :Float32;
+  cR @28 :Float32;
+  aF @29 :Float32;
+  aR @30 :Float32;
+  m @31 :Float32;
+  j @32 :Float32;
+  valDump @33 :List(Float32);
 }
 
 struct LiveMapDataDEPRECATED {
